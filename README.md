@@ -26,3 +26,19 @@ On a computer, hold ← → (or A / D) to walk and let go to hide. P pauses.
 3. iPhone: tap **Share → Add to Home Screen**. Android: tap the **⋮** menu → **Add to Home screen** (or **Install app**).
 
 It then opens full screen from its own icon and works offline.
+
+---
+
+# Feather Flop
+
+A ragdoll physics toy in `flop/`. Grab the floppy bird anywhere, drag him around and fling him. Bonks, flips, big air, trampoline bounces and spinner whacks build a chain, and the chain multiplies until he lies still.
+
+Buttons: **Yeet!** throws him into the air, **Slow-mo** slows time, **Reset** starts over.
+
+| File | What it is |
+| --- | --- |
+| `flop/game.html` | The game. Physics comes from Matter.js, loaded from cdnjs. |
+| `flop/parts/*.webp` | The character cut into eight body parts. |
+| `flop/index.html` | Built from `flop/game.html` by `./build.sh`. |
+
+With GitHub Pages on, it lives at `<your Pages link>/flop/`.
