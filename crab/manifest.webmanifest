@@ -1,0 +1,12 @@
+{
+  "name": "Herm's Beach",
+  "short_name": "Herm",
+  "description": "Help a hermit crab eat, grow, and dodge gulls.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#2b2350",
+  "theme_color": "#2b2350",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

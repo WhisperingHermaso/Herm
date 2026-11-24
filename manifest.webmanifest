@@ -1,12 +1,15 @@
 {
-  "name": "Herm's Beach",
-  "short_name": "Herm",
-  "description": "Help a hermit crab eat, grow, and dodge gulls.",
+  "name": "Bird Simulator",
+  "short_name": "Bird Sim",
+  "description": "Grab a floppy bird, fling him around a padded playroom and chain stunts.",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",
   "orientation": "portrait",
-  "background_color": "#2b2350",
-  "theme_color": "#2b2350",
-  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+  "background_color": "#3d9fb8",
+  "theme_color": "#3d9fb8",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
 }

@@ -28,10 +28,10 @@ HEAD
   echo "Built $dir/index.html"
 }
 
-wrap . "Herm" \
-  '<meta name="theme-color" content="#2b2350"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon.svg">' \
+wrap . "Bird Sim" \
+  '<meta name="theme-color" content="#3d9fb8"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">' \
   "<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>"
 
-wrap flop "Bird Simulator" \
-  '<meta name="theme-color" content="#3d9fb8"><link rel="apple-touch-icon" href="parts/head.webp">' \
-  ''
+wrap crab "Herm" \
+  '<meta name="theme-color" content="#2b2350"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon.svg">' \
+  "<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>"
