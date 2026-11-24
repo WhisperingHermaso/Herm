@@ -1,5 +1,5 @@
 // Bird Simulator: loads fresh when online, falls back to the last copy offline.
-const CACHE = 'bird-sim-v2';
+const CACHE = 'bird-sim-v3';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png',
   './parts/head.webp', './parts/torso.webp', './parts/armL.webp', './parts/armR.webp',
   './parts/thighL.webp', './parts/thighR.webp', './parts/shinL.webp', './parts/shinR.webp', './parts/character.webp'];

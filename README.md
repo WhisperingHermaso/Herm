@@ -14,9 +14,20 @@ They open full screen from their own icons and work offline after the first visi
 
 ## Bird Simulator
 
-A ragdoll physics toy. Grab the floppy bird anywhere, drag him around and fling him. Bonks, flips, big air, trampoline bounces and spinner whacks build a chain, and the chain multiplies until he lies still.
+A ragdoll physics game. Grab the floppy bird and fling him around, or pick a weapon from the tray and tap where to use it. Bonks, flips, big air, trampoline bounces, bullseyes and weapon hits build a chain, and the chain multiplies until he lies still.
 
-Buttons: **Yeet!** throws him into the air, **Slow-mo** slows time, **Reset** starts over.
+**Levels.** Each room has a goal. Clearing it unlocks the next room and a new weapon.
+
+| # | Room | Goal | Unlocks |
+| --- | --- | --- | --- |
+| 1 | Playroom | Score 1,000 points | Hammer |
+| 2 | Gym | Hit him with the hammer 5 times | Punch (spring glove) |
+| 3 | Warehouse | Send him 4 m high (less on short screens) | Bowling ball |
+| 4 | Rooftop | Hit the bullseye 3 times | Bomb |
+| 5 | Building Site | Land a 3,000 point chain | Cannon |
+| 6 | Arena | Catch him in 5 explosions | Sandbox |
+
+**Buttons.** Yeet! throws him into the air, Slow-mo slows time, Reset rebuilds the room. The top-right buttons open the level list, switch blood mode and mute the sound.
 
 | File | What it is |
 | --- | --- |
