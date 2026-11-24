@@ -32,6 +32,6 @@ wrap . "Herm" \
   '<meta name="theme-color" content="#2b2350"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon.svg">' \
   "<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>"
 
-wrap flop "Feather Flop" \
+wrap flop "Bird Simulator" \
   '<meta name="theme-color" content="#3d9fb8"><link rel="apple-touch-icon" href="parts/head.webp">' \
   ''

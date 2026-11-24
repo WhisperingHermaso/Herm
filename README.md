@@ -29,7 +29,7 @@ It then opens full screen from its own icon and works offline.
 
 ---
 
-# Feather Flop
+# Bird Simulator
 
 A ragdoll physics toy in `flop/`. Grab the floppy bird anywhere, drag him around and fling him. Bonks, flips, big air, trampoline bounces and spinner whacks build a chain, and the chain multiplies until he lies still.
 

@@ -6,12 +6,12 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Feather Flop">
+<meta name="apple-mobile-web-app-title" content="Bird Simulator">
 <meta name="theme-color" content="#3d9fb8"><link rel="apple-touch-icon" href="parts/head.webp">
 <style>*,*::before,*::after{box-sizing:border-box}body{margin:0}[hidden]{display:none!important}</style>
 </head>
 <body>
-<title>Feather Flop</title>
+<title>Bird Simulator</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,7 +76,7 @@ body{background:var(--wall);color:var(--cream);font-family:var(--font-body);over
 .card{width:min(370px,100%);background:rgba(22,40,66,.9);border-radius:26px;padding:22px 20px 20px;text-align:center;
   box-shadow:0 24px 60px rgba(0,0,0,.35),inset 0 0 0 1px var(--line);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
   display:flex;flex-direction:column;gap:14px}
-.logo{font-family:var(--font-display);font-size:58px;line-height:.88;color:var(--sun);letter-spacing:.02em;
+.logo{font-family:var(--font-display);font-size:min(54px,13.5vw);line-height:.88;color:var(--sun);letter-spacing:.02em;
   text-shadow:0 5px 0 var(--pop),0 12px 26px rgba(0,0,0,.35);margin-top:4px;transform:rotate(-3deg)}
 .tag{margin:0;font-size:15px;font-weight:800;color:rgba(255,248,236,.85);text-wrap:balance}
 .tips{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px;text-align:left}
@@ -84,6 +84,8 @@ body{background:var(--wall);color:var(--cream);font-family:var(--font-body);over
 .chip{font-family:var(--font-display);font-size:15px;letter-spacing:.05em;text-align:center;padding:7px 0 4px;border-radius:10px;background:rgba(255,248,236,.1);box-shadow:inset 0 0 0 1px var(--line)}
 .chip.a{color:var(--sun)} .chip.b{color:var(--pop)} .chip.c{color:#8ff0d0}
 .tips b{color:var(--sun)}
+.btn{white-space:nowrap}
+@media (max-width:380px){.btn{font-size:15px;padding:12px 12px 9px}.btn.main{font-size:20px;padding:14px 18px 10px}#bar{gap:8px}}
 @media (max-height:600px){.logo{font-size:42px}.card{gap:9px;padding:14px}.tips li{font-size:13px}}
 </style>
 
@@ -113,7 +115,7 @@ body{background:var(--wall);color:var(--cream);font-family:var(--font-body);over
 
 <div class="overlay" id="intro">
   <div class="card">
-    <div class="logo">Feather<br>Flop</div>
+    <div class="logo">Bird<br>Simulator</div>
     <p class="tag">A very floppy bird, a padded playroom, and nothing holding him down.</p>
     <ul class="tips">
       <li><span class="chip a">Grab</span><span>Touch any part of him and <b>drag</b>. Let go mid-swing to fling him.</span></li>
